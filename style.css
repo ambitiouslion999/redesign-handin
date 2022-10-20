@@ -1,0 +1,43 @@
+.bg-cover {
+    width: 70%;
+    height: 60%;
+    background: url("/oldsite.png") no repeat center;
+    background-size: cover;
+}
+
+.bg-cover2 {
+    width: 80%;
+    height: 70%;
+}
+
+.bg-cover3 {
+    width: 60%;
+    height: 50%;
+}
+
+.bg-cover4 {
+    width: 30%;
+    height: 50%;
+}
+
+.large {
+    display: block;
+    content: "";
+    border-bottom: 200px solid transparent; 
+  }
+  @-moz-document url-prefix() {
+    br {
+      margin-bottom: 200px; 
+    }
+  }
+
+  .medium {
+    display: block;
+    content: "";
+    border-bottom: 100px solid transparent; 
+  }
+  @-moz-document url-prefix() {
+    br {
+      margin-bottom: 100px; 
+    }
+  }
